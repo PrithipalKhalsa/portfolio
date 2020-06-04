@@ -14,6 +14,17 @@
   .time-item {
    display: -webkit-box;;
    }
+   .time-job{
+     border-left:solid 1px;
+    min-width: 400px;
+    MAX-WIDTH: 800px;
+     /* display: flex; */
+     text-align: left;
+   padding: 20px;
+   position: relative;
+   overflow-x: hidden;
+
+   }
 
 }
 @media screen and (max-width: 770px) {
@@ -27,5 +38,11 @@
    }
    .time-date::after{
      visibility: hidden;
+   }
+   .time-job:after{
+     visibility: hidden;
+   }
+   .time-job{
+     border:none;
    }
 }
