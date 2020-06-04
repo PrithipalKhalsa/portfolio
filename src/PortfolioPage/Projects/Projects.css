@@ -1,0 +1,19 @@
+.project-group{
+  display: flex;
+  margin-left:200px;
+}
+.project-group .card-holders{
+  text-align: -webkit-center;
+}
+@media screen and (max-width: 1260px) {
+  .project-group{
+    display: block ;
+    margin-left:200px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .project-group{
+    display: block ;
+    margin-left:0px;
+  }
+}

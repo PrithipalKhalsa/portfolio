@@ -1,0 +1,55 @@
+
+.time-date{
+position: relative;
+}
+.time-date::after{
+
+  content: " ";
+  position: absolute;
+  top: 24.5px;
+  right: -10.5px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  float: right;
+  background-color: #feca76;
+    z-index: 1;
+}
+.time-job{
+  border-left:solid 1px;
+ min-width: 400px;
+ MAX-WIDTH: 800px;
+  /* display: flex; */
+  text-align: left;
+padding: 20px;
+position: relative;
+
+}
+
+.time-subtitle{
+  font-style: italic;
+}
+
+.time-date p {
+    margin: 0px 9px;
+    background: #daeae9;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block
+}
+.time-job p {
+  width: 80%;
+}
+
+
+
+.time-job:after {
+    content: "";
+    position: absolute;
+    left: 54px;
+    bottom: 0;
+    height: 1px;
+    width: 87%;
+    border-bottom: 1px solid;
+}

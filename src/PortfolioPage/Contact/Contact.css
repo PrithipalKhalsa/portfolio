@@ -1,0 +1,78 @@
+ .contact-content{
+  margin-left:250px;
+  display:flex;
+
+}
+.contact-icons {
+    display: flex;
+    flex-flow: column;
+    float: left;
+    margin:0 50px ;
+    align-items: baseline;
+}
+@media screen and (max-width: 1260px) {
+  .contact-content{
+    margin-left:250px;
+    display:flex;
+  }
+  .contact-icons {
+     display: flex;
+     float:left;
+margin:0 50px ;
+  }
+}
+
+ @media screen and (max-width: 770px) {
+  .contact-content{
+    margin-left:0px;
+    display: block;
+
+  }
+  .contact-icons {
+      display: block;
+      float: unset;
+      margin:0  ;
+  }
+}
+
+
+.Contact  .fa:hover{
+  font-size:5em;
+  -webkit-transition: all 0.2s ease-out;
+     -moz-transition: all 0.2s ease-out;
+      -ms-transition: all 0.2s ease-out;
+       -o-transition: all 0.2s ease-out;
+          transition: all 0.2s ease-out;
+}
+.Contact .fa{
+  -webkit-transition: all 0.2s ease-in;
+     -moz-transition: all 0.2s ease-in;
+      -ms-transition: all 0.2s ease-in;
+       -o-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
+}
+
+
+
+.contact-icons a {
+  color: black;
+  text-decoration: none;
+}
+
+.contact-info {
+  text-align: -webkit-center;
+  -webkit-transition: all 0.2s ease-out;
+     -moz-transition: all 0.2s ease-out;
+      -ms-transition: all 0.2s ease-out;
+       -o-transition: all 0.2s ease-out;
+          transition: all 0.2s ease-out;
+
+}
+.info{
+  border: solid 2px;
+border-radius: 5px;
+padding: 14px;
+box-shadow: 1px 1px 1px 1px #8888 inset;
+    background-color: #DAEBE9;
+        width: 350px;
+}
