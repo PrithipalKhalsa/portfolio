@@ -23,6 +23,7 @@ const Projects = () => {
   return (
 
 <div className="Projects">
+<h1>Personal Projects</h1>
 <div className="project-group">
                {testData.map(({stack,title,description,link,github}) =>
                   <div className="card-holders" key={title}><Card stack={stack} title={title}description={description} link={link} github={github}/></div>)}
