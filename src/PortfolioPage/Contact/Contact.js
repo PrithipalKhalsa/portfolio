@@ -7,11 +7,11 @@ let socket;
 const Contact = () => {
   const [info, toggleInfo] = useState(0);
   const infoMap=[
-    {title:"Linkedin",
-      info:"Linkedin is the best place to contact me for open positions or if we simply to network",
-    },
     {title:"Email",
       info:"Easiest way to get in contact with me is email. I usually reply within an hour or two on the weekdays.",
+    },
+    {title:"Linkedin",
+      info:"Linkedin is the best place to contact me for open positions or simply to network",
     },
     {
       title:"GitHub",
@@ -35,9 +35,8 @@ const Contact = () => {
 <h1>Contact Me</h1>
 <div className="contact-content">
 <div className="contact-icons">
-
-<a target="_blank" href={"https://www.linkedin.com/in/prithipal-khalsa-2b83a1133/"} onMouseEnter={()=>toggleInfo(0)}>   <i className="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
-<a target="_blank" href={"mailto:prithipalpsk@gmail.com"} onMouseEnter={()=>toggleInfo(1)}>   <i className="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
+<a target="_blank" href={"mailto:prithipalpsk@gmail.com"} onMouseEnter={()=>toggleInfo(0)}>   <i className="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
+<a target="_blank" href={"https://www.linkedin.com/in/prithipal-khalsa-2b83a1133/"} onMouseEnter={()=>toggleInfo(1)}>   <i className="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
 <a target="_blank" href={"https://github.com/PrithipalKhalsa"} onMouseEnter={()=>toggleInfo(2)}>   <i className="fa fa-github fa-4x" aria-hidden="true"></i></a>
 <a target="_blank" href={"https://www.instagram.com/principle_salsa/"} onMouseEnter={()=>toggleInfo(3)}>  <i className="fa fa-instagram fa-4x " aria-hidden="true"></i></a>
 <a target="_blank" href={"https://www.facebook.com/prithipal.the.fish"} onMouseEnter={()=>toggleInfo(4)}>   <i className="fa  fa-facebook-square fa-4x" aria-hidden="true"></i></a>
