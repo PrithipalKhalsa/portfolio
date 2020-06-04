@@ -16,16 +16,7 @@ position: relative;
   background-color: #feca76;
     z-index: 1;
 }
-.time-job{
-  border-left:solid 1px;
- min-width: 400px;
- MAX-WIDTH: 800px;
-  /* display: flex; */
-  text-align: left;
-padding: 20px;
-position: relative;
 
-}
 
 .time-subtitle{
   font-style: italic;
