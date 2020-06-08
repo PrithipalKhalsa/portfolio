@@ -30,7 +30,7 @@ background-color:#feb43e;
 }
 .card-border {
     width: calc(50% - 40px);
-    max-width: 600px;
+    max-width: 400px;
     min-width: 312px;
     background: #daeae9;
     padding: 0px 15px 15px 15px;

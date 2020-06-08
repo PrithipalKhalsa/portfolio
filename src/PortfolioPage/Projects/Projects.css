@@ -1,7 +1,16 @@
 .project-group{
   display: flex;
-  margin-left:200px;
+  margin-left:250px;
+  display: flex;
+text-align: -webkit-center;
+flex-wrap: wrap;
 }
+.project-title{
+  position:relative;
+margin:0 auto;
+left: -122px;
+}
+
 .project-group .card-holders{
   text-align: -webkit-center;
 }
@@ -9,6 +18,10 @@
   .project-group{
     display: block ;
     margin-left:200px;
+
+  }
+  .project-title{
+  left:0px;
   }
 }
 @media screen and (max-width: 770px) {
@@ -16,4 +29,11 @@
     display: block ;
     margin-left:0px;
   }
+  .project-title{
+  left:0px;
+  }
+}
+.project-subtitle{
+  width: 50%;
+margin: auto;
 }
