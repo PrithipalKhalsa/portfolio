@@ -33,11 +33,13 @@
     bottom: 0px;
     margin: 18px;
     margin-left: 48px;
+    z-index: 1;
     -webkit-transition: all 0.2s ease-out;
        -moz-transition: all 0.2s ease-out;
         -ms-transition: all 0.2s ease-out;
          -o-transition: all 0.2s ease-out;
             transition: all 0.2s ease-out;
+
 }
 .Bio.me::after{
   cursor: default;
