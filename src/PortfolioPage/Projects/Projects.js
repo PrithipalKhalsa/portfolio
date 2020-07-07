@@ -22,8 +22,8 @@ const Projects = () => {
   },
     {
     title: "Spottvenn",
-    description:"STATUS:DOWN. Generates a playlist for based on the similar tracks between you and another spotify user.",
-    stack:["Python","Django","Spotify API","Digital Ocean"],
+    description:"An app that helps you find spotify music that you don't know.",
+    stack:["Node.js","React.js","Spotify API","Digital Ocean"],
     link:"http://www.spottvenn.com/",
     github:"https://github.com/PrithipalKhalsa/spotvenn"
 

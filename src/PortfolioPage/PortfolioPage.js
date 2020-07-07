@@ -26,6 +26,7 @@ const PortfolioPage = () => {
   {(frame==="Career")?<Career />:null}
   {(frame==="Contact")?<Contact />:null}
   {(frame==="Resume")?<Resume />:null}
+
 </div>
 
 </div>
