@@ -24,7 +24,7 @@ const Projects = () => {
     title: "Spottvenn",
     description:"An app that helps you find spotify music that you don't know.",
     stack:["Node.js","React.js","Spotify API","Digital Ocean"],
-    link:"http://www.spottvenn.com/",
+    link:"http://spottvenn.com/",
     github:"https://github.com/PrithipalKhalsa/spotvenn"
 
   }]
